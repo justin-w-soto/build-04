@@ -6,3 +6,4 @@ CREATE TABLE cars (
   model TEXT NOT NULL,
   year INT CHECK (year > 999 AND year < 10000)
 );
+
